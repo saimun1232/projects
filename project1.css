@@ -23,13 +23,17 @@ body{
 .logo{
     background-image: url("logo-dark.png");
     background-repeat: no-repeat;
-    background-size:100% 100%;
+    background-size: 100% 100%;
+    background-origin: content-box;
     height: 100px;
     width: 100%;
     border-radius:10px;
-    padding: 10px;
+    padding: 20px;
     margin: 0 auto;
-    box-shadow:0px 0px 2px #5f5f5f,inset 6px 6px 12px #a7aaaf,inset -6px -6px 12px #ffffff;
+    box-shadow:0px 0px 2px #5f5f5f,inset 8px 8px 16px #a7aaaf, inset -8px 16px #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .title{
     text-align: center;
